@@ -17,6 +17,6 @@ function App() {
     height: "auto",
     className: "App-logo",
     alt: "logo"
-  }), /* @__PURE__ */ React.createElement("p", null, "Page has been open for ", /* @__PURE__ */ React.createElement("code", null, count), " seconds.")));
+  }), /* @__PURE__ */ React.createElement("p", null, "Wowza Page has been open for ", /* @__PURE__ */ React.createElement("code", null, count), " seconds.")));
 }
 export default App;
