@@ -8,6 +8,12 @@ export default {
   plugins: [
     /* ... */
     "@snowpack/plugin-react-refresh",
+    [
+      "@snowpack/plugin-webpack",
+      {
+        /* see "Plugin Options" below */
+      },
+    ],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
@@ -25,5 +31,7 @@ export default {
   },
   buildOptions: {
     /* ... */
+    baseUrl: "/react-snowpack-playground",
+    out: "../docs",
   },
 };

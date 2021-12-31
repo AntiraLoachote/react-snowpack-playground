@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
       <img src={logo} width={'100%'} height={'auto'} className="App-logo" alt="logo" />
         <p>
-        Page has been open for <code>{count}</code> seconds.
+        Wowza Page has been open for <code>{count}</code> seconds.
         </p>
       </header>
     </div>
