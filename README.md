@@ -22,3 +22,7 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+
+
+### How to deploy to GH-pages
+https://github.com/jgrizou/snowpack-boilerplate
